@@ -1,10 +1,14 @@
-let age: any = 31
+let age: any = 22
+console.log(typeof age)
 
-// ...
+age = '22'
+console.log(typeof age)
 
-age = '31'
 age = true
-age = {}
-age = []
+console.log(typeof age)
 
+age = {month: "January", day: "23", year: "2004"}
+console.log(typeof age)
+
+age = [19,20,21,22]
 console.log(typeof age)

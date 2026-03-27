@@ -34,13 +34,16 @@ tsc filename.ts
 ```
 
 ## 01-basics.ts
-Demonstrates **type inference**, **explicit typing**, and what happens when assigning mismatched types.
+Basic TypeScript. 
+Nakita natin paano magdeclare ng variable na may type at anong mangyayari kapag maling type ang na-assign.
 
 ## 02-vanilla-js-types.js
-Shows how JavaScript’s `typeof` operator works to check variable types at runtime.
+Dito, nag-experiment tayo gamit ang `typeof` para malaman ang type ng variable habang tumatakbo ang code. 
+Parang sa JavaScript lang pero makikita ang kaibahan sa TS.
 
 ## 03-flexible-types.ts
-Illustrates the `any` type, allowing reassignment to different types and showing its flexibility (and risks).
+Makikita dito yung `any` type, kasi puwede mong palitan ang variable sa kahit anong type. 
+Super flexible pero may risks rin kasi nawawala yung type safety, ganon.
 
 ## 04-arrays-objects.ts
 Covers arrays with union types, object typing with nested properties, and the `Record` type for flexible objects.
