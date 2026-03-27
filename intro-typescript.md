@@ -46,7 +46,7 @@ Makikita dito yung `any` type, kasi puwede mong palitan ang variable sa kahit an
 Super flexible pero may risks rin kasi nawawala yung type safety, ganon.
 
 ## 04-arrays-objects.ts
-Covers arrays with union types, object typing with nested properties, and the `Record` type for flexible objects.
+Dito pinakita kung paano gumawa ng arrays na may iba’t ibang types, objects na may nested properties, at flexible objects gamit ang `Record` type.
 
 ## 05-enum.ts
 Introduces enums, specifically string enums, and shows how to assign `enum` values properly.
