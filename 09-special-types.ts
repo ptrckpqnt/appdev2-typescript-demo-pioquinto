@@ -1,25 +1,21 @@
-// Special Type - null
 let a: null;
+a = null;
+console.log("a:", a);
 
-a = null
-// a = "Hi"
+let b: null | string;
+b = null;
+console.log("b null:", b);
 
-let b: null | string
+b = "Hi";
+console.log("b string:", b);
 
-b = null
-b = "Hi"
-// b = 10
-
-// Special Type - undefined
 let c: undefined;
+c = undefined;
+console.log("c:", c);
 
-c = undefined
-// c = null
-// c = "Hi"
+let d: undefined | string;
+d = undefined;
+console.log("d undefined:", d);
 
-let d: undefined | string
-
-d = undefined
-d = "Hi"
-// d = null
-// d = 10
+d = "Hello";
+console.log("d string:", d);
