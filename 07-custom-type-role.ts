@@ -1,21 +1,28 @@
 (() => {
-    // Type Aliases or Custom Types
-    // use `type` keyword to create custom type
     type Role = 'admin' | 'guess' | 'teacher' | 'student'
 
-    // Complex Object Type Definition
     type User = {
         name: string;
         age: number;
-        role: Role; // you can use as well the Role type in Object type
+        role: Role;
         permission: string[];
     }
 
-    let userRole: Role = 'admin'
+    let userRole: Role = 'student'
+    console.log("Role:", userRole);
 
-    // ...
+    const user: User = {
+        name: "Patrick",
+        age: 22,
+        role: "student",
+        permission: ["read", "write"]
+    }
+
+    console.log("User info:", user);
 
     function access(role: Role) {
-        // ...
+        console.log("Access granted for:", role);
     }
-})
+
+    access(user.role);
+})();
